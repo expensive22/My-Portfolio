@@ -1,22 +1,24 @@
 {
-  "name": "my-portfolio",
-  "version": "1.0.0",
-  "description": "Responsive Portfolio Website",
-  "main": "index.js",
-  "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/expensive22/My-Portfolio.git"
-  },
-  "author": "Agustin Caro",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/expensive22/My-Portfolio/issues"
-  },
-  "homepage": "https://github.com/expensive22/My-Portfolio#readme",
-  "dependencies": {
-    "node-sass": "^7.0.3"
-  }
+    "name": "my-portfolio",
+    "version": "1.0.0",
+    "description": "Responsive Portfolio Website",
+    "main": "index.js",
+    "scripts": {
+        "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+        "deploy": "gh-pages -d dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/expensive22/My-Portfolio.git"
+    },
+    "author": "Agustin Caro",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/expensive22/My-Portfolio/issues"
+    },
+    "homepage": "https://github.com/expensive22/My-Portfolio#readme",
+    "dependencies": {
+        "gh-pages": "^4.0.0",
+        "node-sass": "^7.0.3"
+    }
 }
